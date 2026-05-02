@@ -19,6 +19,14 @@
   justify-content: center;
   min-height: 100vh;
   text-align: center;
+      body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: white;
+  opacity: 0.65;
+  pointer-events: none;
+}
 }
 
     .container {
